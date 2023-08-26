@@ -597,7 +597,7 @@ h3 {
 
 @media (max-width:1100px){
     .banner {
-        height: 51vh;
+        height: 68vh;
         top: 84px;
     }
     .title_double {
@@ -621,12 +621,17 @@ h3 {
         right: 77px;
     }
 }
+@media (max-width:1050px){
+    .banner {
+        height: 65vh;
+    }
+}
 
 
 
 @media (max-width:1000px) {
     .banner {
-        height: 46vh;
+        height:62vh;
         top: 58px;
     }
     .logoonslide {
@@ -670,13 +675,35 @@ h3 {
         margin: 5px 13px;
     }
 }
-   
+
+
+@media (max-width: 950px) {
+    .banner {
+        height: 59vh;
+    }
+    .title_double{
+        font-size: 122px;
+    }
+    .subBox .sub_title {
+        font-size: 82px;
+    }
+    .bashabriyani{
+        
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+    .socialmedia img{
+        margin: 5px 20px;
+    };
+}
 @media (max-width: 900px) {
     .banner {
-        height: 41vh;
+        height: 53vh;
         z-index: -1;
         position: absolute;
-        top: 53px;
+        top: 55px;
     }
     #logo {
         width: 7%;
@@ -718,7 +745,7 @@ h3 {
     
     .logoonslide {
         position: absolute;
-        top: 120px;
+        top: 156px;
     }
 
     .logoonslide p {
@@ -729,17 +756,21 @@ h3 {
 
     .addtocard {
         position: absolute;
-        top: 271px;
+        top: 310px;
         right: 42px;
     }
 
     .ordernow p {
-        font-size: 32px;
+        font-size: 25px;
 
     }
 
+    #delivery{
+        font-size: 13px;
+    }
+
     .title_double {
-        font-size: 124px;
+        font-size: 122px;
     }
 
     .subBox .sub_title {
@@ -754,7 +785,7 @@ h3 {
     #cardsbg {
         /* border: 2px solid black; */
         position: relative;
-        top: 450px;
+        top: 480px;
         margin-bottom: 8rem;
         /* background-color: black; */
     }
@@ -779,8 +810,22 @@ h3 {
 
 }
 
-@media (max-width: 855px) {
+@media (max-width: 850px) {
+    .banner{
+        height: 50vh;
+        top: 53px;
+    }
 
+    .logoonslide img{
+        width: 58%;
+    }
+    .logoonslide p {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .addtocard {
+        top: 279px;
+    }    
     .title_double {
         font-size: 116px;
     }
@@ -796,9 +841,7 @@ h3 {
 @media (max-width: 800px) {
 
     .banner {
-        height: 36vh;
-        top: 67px;
-        flex-basis: 50%;
+        height: 47vh;
     }
     .logoonslide img {
         margin: auto;
@@ -809,15 +852,29 @@ h3 {
         font-size: 17px;
         width: 100%;
     }
+    .addtocard {
+        position: absolute;
+        top: 258px;
+        right: 42px;
+    }
+    #cardsbg{
+        top: 417px;
+    } 
+    .ordernow p {
+        font-size: 25px;
+
+    }
+
+    #delivery{
+        font-size: 13px;
+    }
     .navbar {
       
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
 
-    .ordernow p {
-        font-size: 29px;
-    }
+   
 
     .title_double {
         font-size: 109px;
@@ -834,29 +891,25 @@ h3 {
         margin-top: 7px;
     }
 
-    .logoonslide p {
-        margin-top: 10px;
-        width: 90%;
-    }
+    
 
-    .addtocard {
-        position: absolute;
-        top: 224px;
-        right: 42px;
-    }
+
 }
 
 @media (max-width: 750px){
     .banner {
-        height: 35vh;
-        top: 65px;
-        flex-basis: 50%;
+        height: 44vh;
+        top: 64px
     }
     .title_double {
         font-size: 102px;
     }
     .subBox .sub_title {
         font-size: 69px;
+    }
+    .addtocard {
+        top: 256px;
+        
     }
 }
 
@@ -870,6 +923,14 @@ h3 {
         background-repeat: no-repeat;
         top: 42px;
     }
+  .addtocard{
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+    top: 230px;
+    /* left: 1%; */
+
+  }
 
     .gradient {
         background: black;
@@ -890,18 +951,14 @@ h3 {
         margin: auto;
     }
 
-    .addtocard {
-        position: absolute;
-        width: 100%;
-        left: 1%;
-        top: 300px;
-        
-    }
+   
     .logoonslide p {
         
        
         margin: auto;
         color: white;
+        font-size: 14px;
+        margin-top: 14px;
         
     }
 
@@ -925,7 +982,7 @@ h3 {
     }
     .logoonslide img {
     margin: auto;
-    width: 37%;
+    width: 20%;
 }
 }
 
@@ -987,14 +1044,12 @@ h3 {
     .logoonslide {
         position: absolute;
         top: 84px;
-        left: 95px;
-        width: 70%;
-        margin: 10px 0px;
+        width: 100%;
     }
 
     .logoonslide img {
         margin: auto;
-        width: 55%;
+        width: 30%;
     }
 
     .logoonslide p {
@@ -1002,10 +1057,8 @@ h3 {
         width: 90%;
     }
     .addtocard {
-        position: absolute;
-        top: 280px;
-        right: 195px;
-        margin: 50px 0px;
+       
+    top: 248px;
     }
 
     .ordernow p {
@@ -1070,11 +1123,10 @@ h3 {
         width: 40%;
     }
 
+.bashacontainer{
+    top: 295px;
+}
 
-    .logoonslide img {
-        margin: auto;
-        width: 61%;
-    }
     #locicon {
         width: 4%;
 
@@ -1143,16 +1195,9 @@ h3 {
 
     }
 
-    .logoonslide {
-        position: absolute;
-        top: 84px;
-        left: 74px;
-        width: 70%;
-    }
+   
     .addtocard {
-        position: absolute;
-        top: 280px;
-        right: 148px;
+       width: 83%;
     }
 }
 
@@ -1169,11 +1214,7 @@ h3 {
 
 @media (max-width:400px) {
 
-    #delivery {
-        text-align: center;
-        font-size: 12px;
-        width: 50%;
-    }
+ 
 
     #locicon {
         width: 6%;
@@ -1191,24 +1232,9 @@ h3 {
         margin: 20px 10px;
     }
 
-    .logoonslide {
-        position: absolute;
-        top: 84px;
-        left: 21px;
-        width: 85%;
-    }
-
-    .logoonslide p {
-        margin-top: 10px;
-        width: 94%;
-    }
-
-    .addtocard {
-        position: absolute;
-        top: 258px;
-        right: 114px;
-        margin-top: 50px;
-    }
+   .addtocard{
+    width: 78%;
+   }
     .title_double {
         font-size: 51px;
     }
@@ -1224,23 +1250,33 @@ h3 {
 @media (max-width: 350px) {
 
     .title_double {
-        font-size: 46px;
+        font-size: 37px;
     }
 
     .subBox .sub_title {
-        font-size: 31px;
+        font-size: 24px;
         margin-top: 10px;
     }
     
-    .addtocard {
-        position: absolute;
-        top: 258px;
-        right: 114px;
-        margin-top: 50px;
+ 
+    #delivery{
+        width: 57%;
     }
-
+    .footerpath-D{
+top: 400px;
+    }
 }
-
+@media(max-width:250px){
+    .title_double {
+        font-size: 35px;
+    }
+    .addtocard {
+        width: 64%;
+    }
+    #delivery{
+        width: 81%;
+    }
+}
 /* @media screen and (max-width: 305px) {
     
     .behind{
