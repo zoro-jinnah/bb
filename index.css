@@ -564,6 +564,9 @@ h3 {
         height: 72vh;
         top: 84px;
     }
+    .gradient{
+        height: 72vh;
+    }
     .logoonslide {
         display: flex;
         flex-direction: column;
@@ -594,11 +597,19 @@ h3 {
         margin: 0% 5%;
     }
 }
+@media(max-width:1150px){
+    .gradient {
+        height: 69vh;
+}
+}
 
 @media (max-width:1100px){
     .banner {
         height: 68vh;
         top: 84px;
+    }
+    .gradient{
+        height: 66vh;
     }
     .title_double {
         font-size: 150px;
@@ -625,14 +636,20 @@ h3 {
     .banner {
         height: 65vh;
     }
+    .gradient{
+        height: 63vh;
+    }
 }
 
 
 
 @media (max-width:1000px) {
     .banner {
-        height:62vh;
+        height: 73vh;
         top: 58px;
+    }
+    .gradient{
+        height: 60vh;
     }
     .logoonslide {
         top: 152px;
@@ -679,7 +696,10 @@ h3 {
 
 @media (max-width: 950px) {
     .banner {
-        height: 59vh;
+        height: 70vh;
+    }
+    .gradient {
+        height: 57vh;
     }
     .title_double{
         font-size: 122px;
@@ -700,10 +720,13 @@ h3 {
 }
 @media (max-width: 900px) {
     .banner {
-        height: 53vh;
+        height: 66vh;
         z-index: -1;
         position: absolute;
         top: 55px;
+    }
+    .gradient{
+        height: 54vh;
     }
     #logo {
         width: 7%;
@@ -802,19 +825,17 @@ h3 {
 
     }
 
-    .gradient {
-
-        width: 40%;
-        height: 100%;
-    }
-
 }
 
 @media (max-width: 850px) {
-    .banner{
-        height: 50vh;
-        top: 53px;
+    .banner {
+        height: 62vh;
+        top: 52px;
     }
+    .gradient {
+        height: 50vh;
+    }
+
 
     .logoonslide img{
         width: 58%;
@@ -841,6 +862,9 @@ h3 {
 @media (max-width: 800px) {
 
     .banner {
+        height: 58vh;
+    }
+    .gradient {
         height: 47vh;
     }
     .logoonslide img {
