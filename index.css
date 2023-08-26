@@ -561,7 +561,7 @@ h3 {
 }
 @media (max-width: 1204px){
     .banner {
-        height: 90vh;
+        height: 72vh;
         top: 84px;
     }
     .gradient{
@@ -598,6 +598,11 @@ h3 {
     }
 }
 @media(max-width:1150px){
+    .banner {
+        height: 90vh;
+        top: 84px;
+    }
+
     .gradient {
         height: 69vh;
 }
