@@ -559,9 +559,9 @@ h3 {
     
  
 }
-@media (max-width: 1204px){
+@media screen and  (max-width: 1204px){
     .banner {
-        height: 72vh;
+        height: 100vh;
         top: 84px;
      
     }
