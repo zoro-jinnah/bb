@@ -732,7 +732,7 @@ h3 {
         z-index: -1;
         position: absolute;
         top: 55px;
-        display: none;
+        
     }
     .gradient{
         height: 54vh;
