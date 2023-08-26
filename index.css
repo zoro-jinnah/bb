@@ -563,7 +563,7 @@ h3 {
     .banner {
         height: 72vh;
         top: 84px;
-        display: none;
+     
     }
     .gradient{
         height: 72vh;
@@ -732,6 +732,7 @@ h3 {
         z-index: -1;
         position: absolute;
         top: 55px;
+        display: none;
     }
     .gradient{
         height: 54vh;
